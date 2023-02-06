@@ -22,7 +22,9 @@ p{
     display: inline;
     width: 1000px;
     font-size: medium;
+    margin-top: 100px;
 }
+
 .line{
     border: dashed 2px chocolate;
 }
@@ -31,6 +33,7 @@ p{
     text-align: center;
     width: 200px;
    margin: 0px 100px;
+   margin-top: 50px;
 }
 .content{
     
@@ -39,16 +42,27 @@ p{
     padding: 10px;
     margin: 30px;
     text-align: center;
+    margin-top: 125px;
     
 }
 .con{
-    width: 300px;
+    
     text-align: center;
-    flex-direction: row;
+    
 
 }
 .st{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.ccontent{
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+.vv{
+    justify-content: center;
+    border: dotted 5px cornflowerblue;
+    width:auto
 }
